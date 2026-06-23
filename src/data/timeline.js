@@ -1,0 +1,68 @@
+export const timelineData = [
+  {
+    id: 1,
+    type: "education",
+    title: "B.Tech CSE (AI & ML)",
+    organization: "RR Group of Institutions",
+    location: "Lucknow, India",
+    period: "2022 – 2026",
+    description:
+      "Pursuing Bachelor of Technology in Computer Science Engineering with specialization in Artificial Intelligence and Machine Learning. Focused on core CS fundamentals, MERN stack development, and AI/ML research.",
+    skills: ["Data Structures", "Algorithms", "Machine Learning", "Web Development"],
+    icon: "education",
+    color: "#00d4ff",
+  },
+  {
+    id: 2,
+    type: "experience",
+    title: "MERN Stack Projects",
+    organization: "Self-Directed Learning",
+    location: "Remote",
+    period: "2023 – Present",
+    description:
+      "Independently designed and developed multiple full-stack web applications using the MERN stack. Built Expense Tracker and Finance Manager from scratch, focusing on clean architecture and responsive UI.",
+    skills: ["React.js", "Node.js", "MongoDB", "Express.js"],
+    icon: "code",
+    color: "#7c3aed",
+  },
+  {
+    id: 3,
+    type: "experience",
+    title: "Technical Club Member – HackLance",
+    organization: "RR Group of Institutions",
+    location: "Lucknow, India",
+    period: "2023 – Present",
+    description:
+      "Active member of HackLance, the official technical club of RR Group of Institutions. Assisted in organizing hackathons and coding competitions. Participated in technical workshops and learning sessions. Collaborated with fellow developers on innovative projects and promoted coding culture within the college.",
+    skills: ["Hackathons", "Workshops", "Coding Competitions", "Team Collaboration"],
+    icon: "club",
+    color: "#f59e0b",
+  },
+  {
+    id: 4,
+    type: "experience",
+    title: "AI/ML Research & Projects",
+    organization: "Personal Research",
+    location: "Remote",
+    period: "2024 – Present",
+    description:
+      "Explored and implemented machine learning algorithms using Python. Worked with NumPy, Pandas, Matplotlib, and Scikit-Learn. Developed an AI Interview Preparation Platform integrating NLP and Speech-to-Text.",
+    skills: ["Python", "Scikit-Learn", "NLP", "Data Analysis"],
+    icon: "ai",
+    color: "#00ff88",
+  },
+  {
+    id: 5,
+    type: "experience",
+    title: "Internship (Seeking)",
+    organization: "Open to Opportunities",
+    location: "India / Remote",
+    period: "2025 – Present",
+    description:
+      "Actively seeking internship opportunities in Software Development, MERN Stack, and AI/ML domains. Ready to contribute with strong fundamentals, real-world project experience, and enthusiasm for innovation.",
+    skills: ["Open to Learn", "Team Collaboration", "Problem Solving"],
+    icon: "work",
+    color: "#ec4899",
+    seeking: true,
+  },
+];
