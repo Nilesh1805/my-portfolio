@@ -1,7 +1,7 @@
 import React, { useRef, useMemo } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { Points, PointMaterial, Float, MeshDistortMaterial, Sphere } from "@react-three/drei";
-import * as THREE from "three";
+// import * as THREE from "three";
 
 /* ─────────────────────────────────────
    Star Field — 5000 random points
