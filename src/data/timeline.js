@@ -5,7 +5,7 @@ export const timelineData = [
     title: "B.Tech CSE (AI & ML)",
     organization: "RR Group of Institutions",
     location: "Lucknow, India",
-    period: "2022 – 2026",
+    period: "2023 – 2027",
     description:
       "Pursuing Bachelor of Technology in Computer Science Engineering with specialization in Artificial Intelligence and Machine Learning. Focused on core CS fundamentals, MERN stack development, and AI/ML research.",
     skills: ["Data Structures", "Algorithms", "Machine Learning", "Web Development"],

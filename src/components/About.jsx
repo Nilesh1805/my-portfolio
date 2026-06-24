@@ -64,16 +64,32 @@ const About = () => {
                 <div className="w-full h-full rounded-3xl" style={{ background: "#060f1e" }} />
               </motion.div>
 
-              <div className="relative glass-card rounded-3xl overflow-hidden w-full h-full">
+              <div className="relative glass-card rounded-3xl overflow-hidden w-full h-full flex items-center justify-center"
+                style={{ background: "linear-gradient(135deg, rgba(0,212,255,0.08), rgba(124,58,237,0.08))" }}>
                 <img
                   src="/profile.jpg"
                   alt="Nilesh Rajbhar"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover absolute inset-0"
                   onError={(e) => { e.target.style.display = "none"; }}
                 />
+                {/* Fallback avatar — visible until image loads */}
+                <div className="relative z-0 flex flex-col items-center justify-center select-none">
+                  <motion.div
+                    animate={{ scale: [1, 1.06, 1] }}
+                    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                    className="w-28 h-28 rounded-full flex items-center justify-center"
+                    style={{
+                      background: "linear-gradient(135deg, #00d4ff, #7c3aed, #ec4899)",
+                      boxShadow: "0 0 50px rgba(0,212,255,0.5), 0 0 100px rgba(124,58,237,0.25)",
+                    }}
+                  >
+                    <span className="text-white font-bold text-6xl" style={{ fontFamily: "Space Grotesk, sans-serif" }}>N</span>
+                  </motion.div>
+                  <p className="text-slate-500 text-xs mt-4 font-mono">Nilesh Rajbhar</p>
+                </div>
                 {/* Overlay gradient */}
-                <div className="absolute inset-0"
-                  style={{ background: "linear-gradient(135deg, rgba(0,212,255,0.05) 0%, transparent 100%)" }} />
+                <div className="absolute inset-0 z-10"
+                  style={{ background: "linear-gradient(135deg, rgba(0,212,255,0.04) 0%, transparent 100%)" }} />
               </div>
 
               {/* Floating badge: Status */}

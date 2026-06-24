@@ -4,7 +4,7 @@ import { FiCheckCircle, FiStar } from "react-icons/fi";
 
 const highlights = [
   { text: "Strong foundation in Java and Data Structures & Algorithms", color: "#f97316" },
-  { text: "MERN Stack development experience (React, Node.js, MongoDB)", color: "#7c3aed" },
+  { text: "MERN Stack development experience (React, Express.js, MongoDB)", color: "#7c3aed" },
   { text: "AI & ML background with Python, NumPy, Pandas & Scikit-Learn", color: "#00ff88" },
   { text: "Active on competitive coding platforms (LeetCode & GFG)", color: "#eab308" },
   { text: "College Codethon 3rd Position Holder", color: "#f59e0b" },
